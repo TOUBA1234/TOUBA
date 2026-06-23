@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Touba Diop — CV Interactif</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=DM+Mono:ital,wght@0,400;0,500;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">T<span class="accent">.</span></span>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#formation">Formation</a></li>
+        <li><a href="#experience">Expérience</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#langues">Langues</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" aria-label="Basculer thème sombre/clair">
+          <i class="fa-solid fa-moon" id="theme-icon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Ouvrir le menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ===== HEADER / HERO ===== -->
+    <header id="hero">
+      <div class="hero-inner">
+        <div class="hero-photo-wrap">
+          <img src="./images/WhatsApp Image 2026-06-22 at 23.08.49.jpeg" alt="Photo de profil de Touba Diop"
+            class="hero-photo" id="hero-photo" />
+        </div>
+        <div class="hero-text">
+          <p class="hero-eyebrow"><span class="mono">&lt;étudiant en informatique /&gt;</span></p>
+          <h1 class="hero-name">Touba<br /><span class="accent">Diop</span></h1>
+          <p class="hero-title">Étudiant en Licence 2 Informatique — UIDT Thiès · Développement web/mobile & design
+            futuriste</p>
+          <ul class="hero-coords">
+            <li><i class="fa-solid fa-envelope"></i> <a
+                href="mailto:touba.diop@univ-thies.sn">touba.diop@univ-thies.sn</a></li>
+            <li><i class="fa-solid fa-phone"></i> <a href="tel:+221774911765">+221 77 491 17 65</a></li>
+            <li><i class="fa-solid fa-location-dot"></i> Dakar, Sénégal</li>
+          </ul>
+          <div class="hero-cta">
+            <a href="#contact" class="btn-primary">Me contacter</a>
+            <a href="#projets" class="btn-ghost">Voir mes projets</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <span></span>
+      </div>
+    </header>
+
+    <!-- ===== À PROPOS ===== -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">À propos</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Étudiant en deuxième année de <strong>Licence Informatique</strong> à l'Université Iba Der Thiam de Thiès,
+              je suis passionné par la conception des avions et les designs futuristes : je construis des interfaces
+              modernes et minimalistes.
+            </p>
+            <p>
+              Curieux et rigoureux, j'aime résoudre des problèmes complexes avec des solutions simples, élégantes et
+              performantes. J'ai conduit plusieurs projets persos (web et mobile) et un stage de développement, tout en
+              explorant le design et le montage vidéo en parallèle.
+            </p>
+          </div>
+          <ul class="about-stats">
+            <li>
+              <span class="stat-num">4</span>
+              <span class="stat-label">projets persos réalisés</span>
+            </li>
+            <li>
+              <span class="stat-num">2</span>
+              <span class="stat-label">expériences : stage & gestion de projet</span>
+            </li>
+            <li>
+              <span class="stat-num">L2</span>
+              <span class="stat-label">Informatique · UIDT Thiès</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FORMATION ===== -->
+    <section id="formation">
+      <div class="container">
+        <h2 class="section-title">Formation</h2>
+        <ol class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2025 — 2026 <span class="mono">· en instance</span></span>
+              <h3>Licence 2 Informatique</h3>
+              <p class="timeline-place"><i class="fa-solid fa-building-columns"></i> Université Iba Der Thiam de Thiès
+                (UIDT)</p>
+              <p>Algorithmique, bases de données, développement web & mobile, systèmes d'exploitation.</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2025 — 2026 <span class="mono">· passable</span></span>
+              <h3>Licence 1 Informatique</h3>
+              <p class="timeline-place"><i class="fa-solid fa-building-columns"></i> Université Iba Der Thiam de Thiès
+                (UIDT)</p>
+              <p>Premier semestre marqué par une vraie passion pour les mathématiques et la programmation.</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2024</span>
+              <h3>Baccalauréat Série S</h3>
+              <p class="timeline-place"><i class="fa-solid fa-school"></i> Lycée — Sénégal</p>
+              <p>Mention Assez Bien. Entrée à l'UIDT la même année : premier pas vers l'informatique.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== COMPÉTENCES ===== -->
+    <section id="competences">
+      <div class="container">
+        <h2 class="section-title">Compétences</h2>
+        <div class="skills-grid">
+
+          <article class="skills-group">
+            <h3>Développement</h3>
+            <div class="skill-cat">
+              <span class="skill-cat-label">Frontend</span>
+              <ul class="skill-tags">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript ES2023+</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+            <div class="skill-cat">
+              <span class="skill-cat-label">Backend</span>
+              <ul class="skill-tags">
+                <li>PHP / Express</li>
+                <li>Python / Django</li>
+                <li>REST API & GraphQL</li>
+              </ul>
+            </div>
+            <div class="skill-cat">
+              <span class="skill-cat-label">Bases de données</span>
+              <ul class="skill-tags">
+                <li>MySQL / PostgreSQL</li>
+                <li>SQLite / NoSQL</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="skills-group">
+            <h3>Design & Montage vidéo</h3>
+            <div class="skill-cat">
+              <span class="skill-cat-label">Design</span>
+              <ul class="skill-tags">
+                <li>Canva</li>
+                <li>Photoshop</li>
+                <li>Google Stitch</li>
+                <li>Blender (3D)</li>
+              </ul>
+            </div>
+            <div class="skill-cat">
+              <span class="skill-cat-label">Montage vidéo</span>
+              <ul class="skill-tags">
+                <li>DaVinci Resolve</li>
+                <li>CapCut</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPÉRIENCE ===== -->
+    <section id="experience">
+      <div class="container">
+        <h2 class="section-title">Expérience</h2>
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <div class="project-header">
+              <i class="fa-solid fa-laptop-code project-icon"></i>
+              <span class="project-tag">Stage · Juin–Août 2024</span>
+            </div>
+            <h3>Apprenti Développeur Web</h3>
+            <p class="timeline-place"><i class="fa-solid fa-building"></i> Dakar — Acan Mentor</p>
+            <p>Apprentissage de Python et des outils de développement web aux côtés de mentors expérimentés.</p>
+            <ul class="project-tech">
+              <li>Python</li>
+              <li>HTML/CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-header">
+              <i class="fa-solid fa-users project-icon"></i>
+              <span class="project-tag">Projet perso · Jan–Mars 2024</span>
+            </div>
+            <h3>Chef de projet — Application mobile</h3>
+            <p class="timeline-place"><i class="fa-solid fa-mobile-screen"></i> Projet personnel · Équipe de 2 étudiants
+            </p>
+            <p>Pilotage d'une application de vente et d'échange de vêtements, inspirée de Vinted.</p>
+            <ul class="project-tech">
+              <li>Python</li>
+              <li>HTML/CSS</li>
+              <li>JavaScript</li>
+              <li>SQLite</li>
+              <li>Flutter</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJETS ===== -->
+    <section id="projets">
+      <div class="container">
+        <h2 class="section-title">Projets réalisés</h2>
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <div class="project-header">
+              <i class="fa-solid fa-wallet project-icon"></i>
+              <span class="project-tag">Application web</span>
+            </div>
+            <h3>WANTER MA</h3>
+            <p>Plateforme de vente et d'échange de vêtements dédiée aux Sénégalais, avec paiement mobile intégré (Wave,
+              Orange Money).</p>
+            <ul class="project-tech">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>MySQL</li>
+            </ul>
+            <a href="https://github.com/TOUBA1234" class="project-link" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github"></i> Voir sur GitHub
+            </a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-header">
+              <i class="fa-solid fa-book project-icon"></i>
+              <span class="project-tag">Application mobile</span>
+            </div>
+            <h3>SIBDR</h3>
+            <p>Application de gestion de la coordination administrative des activités d'une organisation et de
+              suivi-évaluation des indicateurs de performance.</p>
+            <ul class="project-tech">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>SQLite</li>
+              <li>Google Colab</li>
+              <li>Google Slides</li>
+            </ul>
+            <a href="https://github.com/TOUBA1234" class="project-link" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github"></i> Voir sur GitHub
+            </a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-header">
+              <i class="fa-solid fa-clipboard-list project-icon"></i>
+              <span class="project-tag">Application web</span>
+            </div>
+            <h3>PUBLIC TRAV</h3>
+            <p>Plateforme de communication qui permet de publier des travaux et de visualiser les commentaires associés
+              à chaque travail.</p>
+            <ul class="project-tech">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Django</li>
+            </ul>
+            <a href="https://github.com/TOUBA1234" class="project-link" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github"></i> Voir sur GitHub
+            </a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-header">
+              <i class="fa-solid fa-comments project-icon"></i>
+              <span class="project-tag">Plateforme de conversation</span>
+            </div>
+            <h3>WETHIO</h3>
+            <p>Plateforme de communication et de recherche d'informations permettant de partager des idées et d'échanger
+              avec d'autres utilisateurs.</p>
+            <ul class="project-tech">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <a href="https://github.com/TOUBA1234" class="project-link" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github"></i> Voir sur GitHub
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== LANGUES ===== -->
+    <section id="langues">
+      <div class="container">
+        <h2 class="section-title">Langues</h2>
+        <ul class="langues-list">
+          <li class="langue-item">
+            <span class="langue-flag">🇫🇷</span>
+            <div class="langue-info">
+              <strong>Français</strong>
+              <span class="langue-level niveau-c">Courant</span>
+            </div>
+          </li>
+          <li class="langue-item">
+            <span class="langue-flag">🇸🇳</span>
+            <div class="langue-info">
+              <strong>Wolof</strong>
+              <span class="langue-level niveau-nat">Langue maternelle</span>
+            </div>
+          </li>
+          <li class="langue-item">
+            <span class="langue-flag">🇬🇧</span>
+            <div class="langue-info">
+              <strong>Anglais</strong>
+              <span class="langue-level niveau-b">Niveau de base</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== CENTRES D'INTÉRÊT ===== -->
+    <section id="interets">
+      <div class="container">
+        <h2 class="section-title">Centres d'intérêt</h2>
+        <ul class="interets-list">
+          <li class="interet-item">
+            <i class="fa-solid fa-code"></i>
+            <span>Programmation</span>
+          </li>
+          <li class="interet-item">
+            <i class="fa-solid fa-gamepad"></i>
+            <span>Game dev indie</span>
+          </li>
+          <li class="interet-item">
+            <i class="fa-solid fa-futbol"></i>
+            <span>Football</span>
+          </li>
+          <li class="interet-item">
+            <i class="fa-solid fa-film"></i>
+            <span>Design & montage vidéo</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p>Disponible pour des stages, des projets collaboratifs ou simplement échanger sur le développement web.
+              N'hésitez pas à me contacter !</p>
+            <ul class="contact-details">
+              <li><i class="fa-solid fa-envelope"></i> touba.diop@univ-thies.sn</li>
+              <li><i class="fa-solid fa-phone"></i> +221 77 491 17 65</li>
+              <li><i class="fa-solid fa-location-dot"></i> Dakar, Sénégal</li>
+            </ul>
+          </div>
+
+          <form id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="contact-nom">Nom complet</label>
+              <input type="text" id="contact-nom" name="nom" placeholder="Votre nom" autocomplete="name" />
+              <span class="form-error" id="error-nom"></span>
+            </div>
+            <div class="form-group">
+              <label for="contact-email">E-mail</label>
+              <input type="email" id="contact-email" name="email" placeholder="***@exemple.com" autocomplete="email" />
+              <span class="form-error" id="error-email"></span>
+            </div>
+            <div class="form-group">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="message" rows="5" placeholder="Votre message..."></textarea>
+              <span class="form-error" id="error-message"></span>
+            </div>
+            <button type="submit" class="btn-primary btn-submit">
+              <i class="fa-solid fa-paper-plane"></i> Envoyer
+            </button>
+            <p class="form-success" id="form-success" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">&copy; 2025 Touba Diop — Tous droits réservés</p>
+      <ul class="footer-links">
+        <li>
+          <a href="https://github.com/TOUBA1234" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/in/Touba-Diop" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:touba.diop@univ-thies.sn" aria-label="E-mail">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- ===== BOUTON RETOUR EN HAUT ===== -->
+  <button id="back-to-top" aria-label="Retour en haut de la page">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="js/script.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <script type="text/javascript">
+    // On attend que le DOM soit complètement chargé pour éviter les erreurs d'éléments introuvables
+    document.addEventListener("DOMContentLoaded", function () {
+
+      // Initialisation avec votre clé publique
+      emailjs.init({
+        publicKey: "LVINXhdRTR16p4Htc",
+      });
+
+      const form = document.getElementById("contact-form");
+      const successMessage = document.getElementById("form-success");
+
+      if (form) {
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          // Récupération des valeurs
+          const templateParams = {
+            name: document.getElementById("contact-nom").value,
+            email: document.getElementById("contact-email").value,
+            message: document.getElementById("contact-message").value
+          };
+
+          // Envoi via EmailJS
+          console.log(templateParams);
+          console.log("Envoi...");
+          emailjs.send("service_y4ol7p6", "template_ghnpfyb", templateParams)
+            .then(function (response) {
+              console.log('Succès !', response.status, response.text);
+
+              // Affichage du message de succès s'il existe
+              if (successMessage) {
+                successMessage.style.display = "block";
+              }
+
+              // Réinitialisation du formulaire
+              form.reset();
+            }, function (error) {
+              console.error('Échec...', error);
+              alert("Erreur lors de l'envoi : " + JSON.stringify(error));
+            });
+        });
+      } else {
+        console.error("Le formulaire avec l'ID 'contact-form' n'a pas été trouvé dans la page.");
+      }
+    });
+  </script>
+</body>
+
+</html>
