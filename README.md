@@ -6,7 +6,7 @@
 ##  Démo en ligne
 
 > [https://touba1234.github.io/TOUBA/](https://touba1234.github.io/TOUBA/)
-  qr de du site interactif 
+   lien du site interactif 
 
 ---
 
@@ -90,12 +90,12 @@ Testé sur Chrome, Firefox, Edge et Safari. Responsive mobile dès 320px.
 ## probleme rencontres 
 - Probleme de deploiement du code sur git hub
 - Un envoie et une reception de Mail fonctionnelle 
--  probleme avec le code java script 
+- Probleme avec le code java script 
 ---
 ##  solution trouver 
 - Recherche sur youtube .
 - guider par les inteligences artificielles (claude, chat gpt).
-- utilisatiion de l'outils email js pour  un envoie et  une boite email fonctionnelle 
+- utilisation de l'outils email js pour  un envoie et  une boite email fonctionnelle 
 ---
 
-*Projet réalisé dans le cadre du cours de Développement Web Front-End — Dr. Diallo · UIDT Thiès 2025*
+*Projet réalisé dans le cadre du cours de Développement Web  — Dr. Diallo · UIDT Thiès 2025*
