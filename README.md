@@ -20,7 +20,7 @@ mon-cv/
 ├── js/
 │   └── script.js       ← Interactivité JavaScript (Vanilla JS uniquement)
 ├── images/
-│   └── photo-profil.jpg  ← Photo de profil (à remplacer)
+│ 
 └── README.md
 ```
 
@@ -88,14 +88,14 @@ Testé sur Chrome, Firefox, Edge et Safari. Responsive mobile dès 320px.
 
 ---
 ## probleme rencontres 
-- Probleme de deploiement du code sur git hub
-- Un envoie et une reception de Mail fonctionnelle 
-- Probleme avec le code java script 
+- Probleme de deploiement du code sur git hub .
+- Un envoie et une reception de Mail fonctionnelle .
+- Probleme avec le code java script .
 ---
 ##  solution trouver 
 - Recherche sur youtube .
 - guider par les inteligences artificielles (claude, chat gpt).
-- utilisation de l'outils email js pour  un envoie et  une boite email fonctionnelle 
+- utilisation de l'outils email js pour  un envoie et  une boite email fonctionnelle .
 ---
 
 *Projet réalisé dans le cadre du cours de Développement Web  — Dr. Diallo · UIDT Thiès 2025*
